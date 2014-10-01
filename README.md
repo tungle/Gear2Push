@@ -1,4 +1,8 @@
 Gear2Push
 =========
 
-Example of showing how to push a notification from Android to Gear 2 (running Tizen)
+Example of showing how to push a notification from Android to Gear 2 (running Tizen). 
+
+Further reading
+
+http://tungscode.wordpress.com/
