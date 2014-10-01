@@ -1,0 +1,179 @@
+.content-padding {
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.button-group-height {
+	height: 72px;
+}
+
+/* ---------------------------------- LISTVIEW ---------------------------------- */
+.ui-listview li .li-text-sub {
+        display: block;
+        color: rgb(189, 167, 146);
+        font-size: 24px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        line-height: 30px;
+}
+.ui-listview li.li-has-multiline {
+        padding-top: 6px;
+        padding-bottom: 5px;
+        min-height: 90px;
+}
+.ui-listview li.li-has-multiline.disabled,
+.ui-listview li.li-has-multiline.disabled > *,
+.ui-listview li.li-has-multiline-sup.disabled,
+.ui-listview li.li-has-multiline-sup.disabled > * {
+        color: rgb(51, 51, 51);
+}
+.ui-listview li.li-has-multiline > a {
+        margin-top: -6px;
+        margin-bottom: -6px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+}
+.ui-listview li.li-has-multiline.2lines > a {
+        margin-bottom: -62px;
+        padding-bottom: 62px;
+}
+.ui-listview li.li-has-multiline-sup {
+        padding-top: 6px;
+        padding-bottom: 5px;
+        min-height: 90px;
+}
+.ui-listview li.li-has-multiline-sup > a {
+        margin-top: -36px;
+        margin-bottom: -5px;
+        padding-top: 36px;
+        padding-bottom: 5px;
+}
+.ui-listview li {
+        position: relative;
+}
+.ui-listview li input[type="checkbox"],
+.ui-listview li input[type="radio"] {
+        position: absolute;
+        right: 8px;
+        top: 0px;
+        margin-top: 19px;
+}
+.ui-listview .li-has-radio.disabled,
+.ui-listview li.li-has-multiline.li-has-radio.disabled,
+.ui-listview li.li-has-multiline.li-has-radio.disabled .li-text-sub,
+.ui-listview li.li-has-multiline.li-has-checkbox.disabled,
+.ui-listview li.li-has-multiline.li-has-checkbox.disabled .li-text-sub {
+	color: rgb(51, 51, 51);
+}
+.ui-listview li.li-has-checkbox label,
+.ui-listview li.li-has-radio label{
+	display: block;
+	padding-bottom: 21px;
+	padding-left: 16px;
+	padding-right: 64px;
+	padding-top: 21px;
+	margin-top: -21px;
+	margin-bottom: -21px;
+	margin-left: -16px;
+	margin-right: -16px;
+}
+.ui-listview li.li-has-multiline.li-has-checkbox label,
+.ui-listview li.li-has-multiline.li-has-radio label {
+        display: block;
+        padding-bottom: 6px;
+        padding-left: 16px;
+        padding-right: 64px;
+        padding-top: 6px;
+        margin-top: -6px;
+        margin-bottom: -6px;
+        margin-left: -16px;
+        margin-right: -16px;
+}
+/* ------------------------------------------------------------------------------ */
+/* -----------------------------------  NEXT DEPTH------------------------------------ */
+.ui-listview li.li-has-next-depth {
+        padding-right: 60px;
+}
+.ui-listview li.li-has-next-depth a,
+.ui-listview li.li-has-next-depth.disabled {
+	position: relative;
+	margin-right: -60px;
+	padding-right: 60px;
+}
+.ui-listview li.li-has-next-depth a:after {
+	position: absolute;
+	content: "";
+	right: 0;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	margin-top: -25px;
+	background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: right center;
+    background-image: url(../extra/images/Controller_icon/tw_btn_next_depth_holo_dark.png);
+}
+.ui-listview li.li-has-next-depth.disabled a:after {
+	position: absolute;
+	right: 0;
+	content: "";
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	margin-top: -25px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: right center;
+    background-image: url(../extra/images/Controller_icon/tw_btn_next_depth_disabled_holo_dark.png);
+}
+.ui-listview li.li-has-next-depth a:active:after,
+.ui-listview li.li-has-next-depth a:focus:after {
+	position: absolute;
+	content: "";
+	right: 0;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	margin-top: -25px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: right center;
+    background-image: url(../extra/images/Controller_icon/tw_btn_next_depth_focused_holo_dark.png);
+}
+.ui-listview li.li-has-next-depth.disabled,
+.ui-listview li.li-has-next-depth.disabled a,
+.ui-listview li.li-has-next-depth.disabled .li-text-sub {
+    color: rgb(51, 51, 51);
+}
+.disabled {
+    pointer-events: none;
+}
+/* ------------------------------------------------------------------------------ */
+
+/*Basic Text*/
+.basic-text-s-title {
+	margin:16px 16px;
+	line-height: 40px;
+	font-size: 30px;
+	color: #FFF;
+}
+.basic-text-m-title {
+	margin:16px 16px;
+	line-height: 44px;
+	font-size: 34px;
+	color: #FFF;
+}
+.basic-text-l-title {
+	margin:16px 16px;
+	line-height: 48px;
+	font-size: 38px;
+	color: #FFF;
+}
+.basic-text-notitle{
+	margin:16px 16px;
+	line-height: 48px;
+	font-size: 38px;
+	color: #FFF;
+}

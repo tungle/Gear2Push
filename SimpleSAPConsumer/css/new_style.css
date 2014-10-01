@@ -1,0 +1,153 @@
+body,p{
+	margin: 0;
+	padding: 0;
+	font-family: 'Samsungsans', sans-serif;
+	font-weight: 200;
+}
+
+	@font-face {
+    font-family: 'Samsungsans'; 
+    src: url('./asset/Samsungsans.ttf'); 
+}
+
+#main{
+	width: 320px;
+	height: 320px;
+	background-color: #334d6e;
+    display: table;
+    position: absolute;
+
+}
+
+.icon-noti{
+ 	height: auto;
+}
+
+
+.icon-noti > img{
+	padding-top: 41px;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;
+	left: 125px;
+}
+
+.main-text{
+	color: white;
+	font-size: 34px;
+	width: 100%;
+	text-align: center;
+ 
+}
+.sub-text{
+	color: #505050;
+	font-size: 24px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.clock{
+
+	padding-top: 50px;
+	color: #f99107;
+	width: 100%;
+	text-align: center;
+	font-size: 34px;
+}
+.timer{
+	
+	color: #00ce61;
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.pop-action{
+	padding-top: 10px;
+	width: 320px;
+	height: 85px;
+}
+#pop-cancel{
+	float: left;
+	margin-left: 16px;
+}
+#arrow{
+	width: 100px;
+/*	margin-left: 5px;
+	margin-top: 16px;	
+*/
+	padding-top:18px;
+		float: left;
+}
+#arrow-red{
+
+}
+#arrow-orange{
+	width: 118px;
+}
+#pop-snooze{
+	float: right;
+	margin-right: 16px;
+}
+
+#nav-bar{
+	background-color: #00ce61;
+	height: 52px;
+}
+#title{
+	color: white;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 16px;
+	padding-top: 9px;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.main-msg{
+	color: white;
+	font-size: 34px;
+	padding-left: 16px;
+}
+#button-bar{
+	position: absolute;
+	bottom: 0;
+
+	
+}
+.button-2{
+	width: 160px;
+	background-color: #00ce61;
+	height: 78px;
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	vertical-align: middle;
+	
+}
+
+#button-line{
+	background-color: black;
+	height: 78px;
+	width: 1px;
+	float: right;
+}
+#snooze p{
+	padding-top: 24px;
+	
+}
+#take p{
+	padding-top: 24px;
+
+}
+
+
+
+
+
+
+
+
+

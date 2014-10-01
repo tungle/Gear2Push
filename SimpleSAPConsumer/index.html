@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<title>TripGo</title>
+<link rel="stylesheet" href="lib/tau/themes/default/tau.css">
+<link rel="stylesheet" href="css/style.css" />
+<link href="css/new_style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="lib/tau/js/tau.js"></script>
+<script type="text/javascript" src="js/model/TGMMessage.js"></script>
+<script type="text/javascript" src="js/controller/main.js"></script>
+
+</head>
+
+<body>
+	<div id='main' class='ui-page'>
+		<header class='ui-header'>
+			<h2 id='headerContent' class='ui-title ui-icon'
+				style='background-image: url(icon.png);'>TripGo</h2>
+		</header>
+		<div id='resultBoard' class='ui-content content-padding'>Please
+			connect with our service on your host device to get notifications</div>
+		<footer class='ui-footer ui-grid-col-2'>
+			<a id='connectButton' class='ui-btn' onclick='processConnection();'>
+				Link </a> <a class='ui-btn' onclick='closeButtonClicked();'>Close</a>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <application name="TripGo">
+        <serviceProfile id="/system/sapsample"
+                        name="TripGo"
+                        role="provider"
+                        serviceImpl="tungscode.com.gear2push.SAPServiceProvider"
+                        autoLaunchAppId = "UUUSOmFAGG.TripGo"
+                        version="1.0"
+                        serviceLimit="ANY"
+                        serviceTimeout="10">
+            <supportedTransports>
+                <transport type="TRANSPORT_WIFI"/>
+                <transport type = "TRANSPORT_BT"/>
+            </supportedTransports>
+            <serviceChannel
+                id="100"
+                dataRate="low"
+                priority="low"
+                reliability="enable"
+            />
+
+        </serviceProfile>
+    </application>
+</resources>
